@@ -27,5 +27,6 @@ jobs:
     - run: npm ci
     - run: npm install -g @ui5/cli
     - run: npm install @sap/ux-ui5-tooling
+    - run: npm install -g mbt
     - run : mbt build
     - run: npm run deploy

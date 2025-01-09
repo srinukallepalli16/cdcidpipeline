@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.app.sampleapp.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+
+         <Button id="button" text="button" press="Button1"/>
+       <Button id="button2" text="Button2" press="Button1"/>
+    </Page>
+</mvc:View>

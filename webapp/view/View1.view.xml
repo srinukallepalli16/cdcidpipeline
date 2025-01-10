@@ -4,7 +4,28 @@
     <Page id="page" title="{i18n>title}">
        <Button id="button" text="button" press="Button1"/>
        <Button id="button2" text="Button2" press="Button1"/>
-       <Text id="id1" text="Srinivas"/>
-       <Text id="Idj" text="David"/>
+       <!-- <Text id="id1" text="Srinivas"/>
+       <Text id="Idj" text="David"/> -->
+       <Table id="_IDGenTable" >
+            <columns>
+            <Column id="_IDGenColumn1" >
+             <Label id="_IDGenLabel1" text="Sales"></Label>
+               </Column>
+               <Column id="_IDGenColumn" >
+               <Label id="_IDGenLabel2" text="Year"></Label>
+               </Column>
+             
+          
+            </columns>
+            <items>
+            <ColumnListItem id="_IDGenColumnListItem" >
+                <cells>
+                    <Text id="_IDGenText1" text="100units"></Text>
+                    <Text id="_IDGenText2" text="2025"></Text>
+                </cells>
+            </ColumnListItem>
+            </items>
+            
+       </Table>
     </Page>
 </mvc:View>
